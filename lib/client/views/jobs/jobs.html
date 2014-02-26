@@ -1,0 +1,11 @@
+<template name="oDeskJobs">
+{{#if jobs}}
+	<ul>
+		{{#each jobs}}
+			{{> oDeskJobsItem}}
+		{{/each}}
+	</ul>
+{{else}}
+	{{> oDeskJobsLoader}}
+{{/if}}
+</template>
