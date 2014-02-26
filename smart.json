@@ -3,7 +3,7 @@
 	"description"	: "oDesk Jobs - the Meteor way",
 	"homepage"		: "https://github.com/MiroHibler/meteor-odesk-jobs",
 	"author"		: "Miro Hibler (http://miro.hibler.me)",
-	"version"		: "0.1.0",
+	"version"		: "0.1.1",
 	"git"			: "https://github.com/MiroHibler/meteor-odesk-jobs.git",
 	"packages"		: {
 		"odesk-api": "0.1.0"

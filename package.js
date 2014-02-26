@@ -5,6 +5,7 @@ Package.describe({
 Package.on_use(function ( api, where ) {
 
 	api.use( ['templating'/*, 'handlebars'*/], 'client' );
+	api.use( 'odesk-api', ['client', 'server'] );
 
 	api.add_files( 'lib/server/jobs.js', 'server' );
 
